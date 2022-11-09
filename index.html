@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    
+    <div class="feature-container">
+        <div class="logo-iris">
+            <img src="images/iris-logo.png">
+        </div>
+        <div class="feature-img">      
+            <img src="images/iris-feature-1.webp">
+        </div>
+    </div>
+    
+    <div class="container-wrapper">
+    <div class="sidebar">
+        <h2>Select Bank:</h2>
+        <a class="active" href="#unicredit"><img src="images/banks_logos/unicredit-light@3x.png"></a>
+        <a href="#dsk"><img src="images/banks_logos/dsk-light@3x.png"></a>
+        <a href="#postbank"><img src="images/banks_logos/postbank-cropped@3x.png"></a>
+        <a href="#finbank"><img src="images/banks_logos/fibank-logo-light@3x.png"></a>
+        <a href="#ubb"><img src="images/banks_logos/Ubb-light@3x.png"></a>
+        <a href="#revolut"><img src="images/banks_logos/revolut-light@3x.png"></a>
+        <a href="#kbc"><img src="images/banks_logos/kbc.png"></a>
+        <a href="#finbank"><img src="images/banks_logos/fibank-logo-light@3x.png"></a>
+        <a href="#ccb"><img style="max-height: 44px;" src="images/banks_logos/ccb2.png"></a>
+        <a href="#allianz"><img src="images/banks_logos/Allianz-light@3x.png"></a>
+        <a href="#tbi"><img src="images/banks_logos/logo-tbi-bank-light@3x.png"></a>
+        <a href="#invest"><img src="images/banks_logos/Ibank-light@3x.png"></a>
+        <a href="#asset"><img src="images/banks_logos/asset.png"></a>
+        <a href="#bacb"><img src="images/banks_logos/bacb.png"></a>
+        <a href="#procredit"><img src="images/banks_logos/procredit-bank@3x.png"></a>
+        <a href="#dbank"><img src="images/banks_logos/dbank-logo@3x.png"></a>
+    </div>
+
+    <div style="display: block; position: relative; top: -164px; margin-left: 30px;">
+    <div class="bank-acc-row">
+        <div class="h2-1">
+            <h2>Overview</h2>
+        </div>
+    
+        <div class="select-bank-acc">
+            <div class="h4-1">
+                <h4>Bank Accounts:</h4>
+            </div>
+            <div class="acc-selector">
+                <select>
+                <option value="0">BG90UNCR70001523809183</option>
+                <option value="1">BG50UNCR76301077502209</option>
+                <option value="2">BG79UNCR70001523021935</option>
+                <option value="3">BG87UNCR70001522266452</option>
+                <option value="4">BG78UNCR70001523021953</option>
+                <option value="5">BG95UNCR70001524383139</option>
+                <option value="6">BG93UNCR70001524172685</option>
+                <option value="7">BG81UNCR70001522788226</option>
+                <option value="8">BG58UNCR70001520455014</option>
+                <option value="9">BG24UNCR76301077110506</option>
+                <option value="10">BG18UNCR76301175751660</option>
+                <option value="11">BG63UNCR76301078231415</option>
+                <option value="12">BG87UNCR70001524509965</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="balances-container">
+        <div class="current-balance">
+            <p>3 675.00 BGN</p>
+            <div class="balance-span">
+                <span>Current balance</span>
+                <img src="images/icons8-equals-80.png">
+            </div>
+        </div>
+        <div class="incomes">
+            <p>+ 8 075.00 BGN</p>
+            <div class="income-span">
+                <span>Incomes</span>
+                <img src="images/icons8-plus-80.png">
+            </div>
+        </div>
+        <div class="expences">
+            <p>- 3 200.00 BGN</p>
+            <div class="expences-span">
+                <span>Expences</span>
+                <img src="images/icons8-minus-sign-80.png">
+            </div>
+        </div>
+        <div class="loans">
+            <p>- 1 200.00 BGN</p>
+            <div class="loans-span">
+                <span>Loans / Mortage</span>
+                <img width="36px" src="images/icons8-loan-64.png">
+            </div>
+        </div>
+
+    </div>
+   
+
+    <div class="select-filter-container">
+        <div class="select-db-cr">
+            <label class="income">Income
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            <label class="expen">Expences
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div class="filter-period-wrap">
+        <div class="filter">
+            <div id="myDropdown" class="dropdown-content">
+                <img src="images/icons8-filter-and-sort-50.png">
+                <select class="select">
+                    <option value="0">Add Filter</option>
+                    
+                    <option class="income-flt"><h4>Income</h4></option> 
+
+                        <option class="oprion" value="1">Remuneration / Salary</option>
+                        <option class="oprion" value="2">Other income from employer</option>
+                        <option value="3">Business trip / refunded advances</option>
+                        <option value="4">Retirement income</option>
+                        <option value="5">Compensation - social payments</option>
+                        <option value="6">..</option>   
+        
+                    <option class="finansing-flt"><h4>Finansing</h4></option>
+
+                        <option value="7">Mortgage</option>
+                        <option value="8">Consumer credit</option>
+                        <option value="9">Credit card limit granted</option>
+                        <option value="10">Repayment of credit card debt</option>
+                        <option value="11">Overdraft</option>
+                        <option value="12">...</option>
+ 
+                    <option class="finansing-flt"><h4>Personal transfers /instalments</h4></option>
+          
+                        <option value="13">From own account in the same bank</option>
+                        <option value="14">From own account in another bank</option>
+                        <option value="15">Terminal device instalments</option>
+                        <option value="16">Cash instalments - from the holder</option>
+                        <option value="17">Cash instalments - from third parties</option>
+                        <option value="18">...</option>
+                </select>
+            </div>
+          </div>
+
+
+          <div class="period">
+            <select>
+            <option class="period-flt"><h4>Choose period</h4></option>
+            <option value="0">Last year</option>
+            <option value="1">Last month</option>
+            <option value="2">Last 3 months</option>
+            </select>
+          </div>
+
+        </div>
+
+
+    </div>
+
+
+    <table class="graph">
+        <thead>
+            <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Percent</th>
+            </tr>
+        </thead><tbody>
+            <tr style="height:85%">
+                <th scope="row">Remuneration / Salary</th>
+                <td>
+                <span>85% <p>Salary</p></span>
+               
+                </td>
+            </tr>
+            <tr style="height:23%">
+                <th scope="row">Other income from employer</th>
+                <td><span>23%</span></td>
+            </tr>
+            <tr style="height:7%">
+                <th scope="row">Business trip / refunded advances</th>
+                <td><span>7%</span></td>
+            </tr>
+            <tr style="height:38%">
+                <th scope="row">Other financing</th>
+                <td><span>38%</span></td>
+            </tr>
+            <tr style="height:35%">
+                <th scope="row">From own account in the same bank</th>
+                <td><span>35%</span></td>
+            </tr>
+            <tr style="height:30%">
+                <th scope="row">From own account in another bank</th>
+                <td><span>30%</span></td>
+            </tr>
+            <tr style="height:5%">
+                <th scope="row">Cash instalments - from the holder</th>
+                <td><span>5%</span></td>
+            </tr>
+            <tr style="height:20%">
+                <th scope="row">OOther personal transfers</th>
+                <td><span>20%</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="transactions">
+        <div class="h2-1">
+            <h2>Transactions</h2>
+        </div>
+        <!-- <div class="h4-1">
+                <h4>Bank Accounts:</h4>
+            </div> -->
+        <div class="period-tr">
+            <select>
+            <option class="period-flt"><h4>Choose period</h4></option>
+            <option value="0">Last year</option>
+            <option value="1">Last month</option>
+            <option value="2">Last 3 months</option>
+            </select>
+        </div>    
+    </div>
+
+    <div class="table-chart-wrap">
+    <div class="table">
+        <table>
+            <tr>
+              <th>Date</th>
+              <th>Debtor Name</th>
+              <th>Debtor Account</th>
+              <th>Amount</th>
+              <th>Currency</th>
+              <th>Description</th>
+
+            </tr>
+            <tr>
+              <td>2022-08-15</td>
+              <td>Company Ltd.</td>
+              <td>BG12STSA10002345876500</td>
+              <td>6 000.00</td>
+              <td>BGN</td>
+              <td>Salary</td>
+            </tr>
+            <tr>
+             <td>2022-08-22</td>
+             <td>Ivan Ivanov</td>
+             <td>BG46BUIN30007362936111</td>
+             <td>800.00</td>
+             <td>BGN</td>
+             <td>Monthly rent</td>
+            </tr>
+            <tr>
+                <td>2022-09-03</td>
+                <td>Petar Petrov</td>
+                <td>BG90UNCR30000062936461</td>
+                <td>100.00</td>
+                <td>BGN</td>
+                <td>zahranvane</td>
+            </tr>
+            <tr>
+                <td>2022-09-07</td>
+                <td>Petar Petrov</td>
+                <td>BG90UNCR30000062936461</td>
+                <td>250.00</td>
+                <td>BGN</td>
+                <td>Business trip / refunded advances</td>
+            </tr>
+            <tr>
+                <td>2022-09-15</td>
+                <td>Company Ltd.</td>
+                <td>BG12STSA10002345876500</td>
+                <td>6 000.00</td>
+                <td>BGN</td>
+                <td>Salary</td>
+              </tr>
+              <tr>
+               <td>2022-09-22</td>
+               <td>Ivan Ivanov</td>
+               <td>BG46BUIN30007362936111</td>
+               <td>800.00</td>
+               <td>BGN</td>
+               <td>Monthly rent</td>
+              </tr>
+              <tr>
+                  <td>2022-10-03</td>
+                  <td>Petar Petrov</td>
+                  <td>BG90UNCR30000062936461</td>
+                  <td>100.00</td>
+                  <td>BGN</td>
+                  <td>zahranvane</td>
+              </tr>
+              <tr>
+                  <td>2022-10-07</td>
+                  <td>Petar Petrov</td>
+                  <td>BG90UNCR30000062936461</td>
+                  <td>250.00</td>
+                  <td>BGN</td>
+                  <td>Business trip / refunded advances</td>
+              </tr>
+          </table>
+    </div>
+
+
+    <figure class="pie-chart">
+        <figcaption>
+            No of Salary<span style="color:#4e79a7"></span><br>
+            No of tr.Fee<span style="color:#f28e2c"></span><br>
+            Other<span style="color:#e15759"></span><br>
+            Other<span style="color:#76b7b2"></span><br>
+            Other<span style="color:#59a14f"></span><br>
+            Other<span style="color:#edc949"></span>
+        </figcaption>
+    </figure>
+
+    </div>  
+
+    <div style="position: relative; top: 450px; display: block; margin: 0 250px 0 0; text-align: center;"><a href="">View more</a></div>
+    
+    
+
+    </div>
+      
+
+
+  </div>
+
+</head>
+<body>
+    
+</body>
+</html>
